@@ -43,6 +43,8 @@ app.param(['to', 'from'], function(req, res, next, num, name){
   }
 });
 
+int a = 5;
+
 // Load user by id
 
 app.param('user', function(req, res, next, id){
